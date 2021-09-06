@@ -6,25 +6,25 @@
 <link rel="stylesheet" href="index.css" type="text/css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
+<div class="p1">
 <body>
-<div class ="p1">
 <p id="p2">AKAN NAMES AND THEIR ORIGIN</p>
-<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as <em>Coromantees</em>. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender. These Akan names signify the day one is born.</p>
-</div>
+<p id="p3" >Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as <em>Coromantees</em>. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get respective of their gender. These Akan names signify the day one is born.</p>
+</div><br><br>
 <form id="form" method="POST">
     <fieldset>
     <legend>Input your DOB to get started:</legend>
-    Date:   <input type="number" id="date"><br><br>
-    Month:  <input type="number" id="month"><br><br>
-    Year:   <input type="number" id="year"><br><br>
-    <select id="gender"><br><br>
+    Date:  <br> <input type="number" id="date"><br>
+    Month: <br><input type="number" id="month"><br>
+    Year:  <br><input type="number" id="year"><br>
+    Gender:<br><select id="gender" value="Select Gender"><br>
     <option value="Female">Female</option>
     <option value="Male">Male</option>
     </select>
     </fieldset>
     <br>
     <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="generateName(); return false"/>
-    <h2 class ="text-center" id="result">Results:</h2>
+    <h2 class ="res" id="result">Results:</h2>
 </form>
 </body>
 <script src="script.js"></script>
