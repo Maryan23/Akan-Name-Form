@@ -28,7 +28,7 @@
     height:100px;
 }
 body{
-    background-image: url(children.jpg);
+    background-image: url(assets/children.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
