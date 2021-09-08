@@ -24,10 +24,10 @@ function generateName(){
         document.getElementById("result").innerHTML="Please select gender!"
     }
     else if (gender === "Male"){
-        document.getElementById("result").innerHTML="You were born on a" + days[dayOfWeek] +  "your Akan name is" + maleName[dayOfWeek]
+        document.getElementById("result").innerHTML="You were born on a"  + days[dayOfWeek] +  "Your Akan name is" +   maleName[dayOfWeek]
     }
     else if (gender === "Female"){
-        document.getElementById("result").innerHTML="You were born on a" + days[dayOfWeek] +  "your Akan name is" + femaleName[dayOfWeek]
+        document.getElementById("result").innerHTML="You were born on a" + days[dayOfWeek] +  "your Akan name is" +   femaleName[dayOfWeek]
     }
     else{document.getElementById("result").innerHTML="Please check your input!"}
  }
