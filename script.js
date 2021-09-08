@@ -14,13 +14,13 @@ function generateName(){
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     
 
-    if (date <=0 && date>31){
+    if (Number(date) <=0 && Number(date)>31){
         document.getElementById("result").innerHTML="Please enter a valid date!"
     }
-    else if(month<0 && month>12){
+    else if(Number(month)<0 && Number(month)>12){
         document.getElementById("result").innerHTML="Please enter a valid month!"
     }
-    else if((gender === "Female") && (gender === "Male")){
+    else if((gender != "Female") && (gender != "Male")){
         document.getElementById("result").innerHTML="Please select gender!"
     }
     else if (gender === "Male"){
