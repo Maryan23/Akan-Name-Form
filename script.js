@@ -18,10 +18,10 @@ function generateName(){
         document.getElementById("result").innerHTML="Please enter a valid date!"
     }
     else if(Number(month)<0 && Number(month)>12){
-        document.getElementById("result").innerHTML="Please enter a valid month!"
+        alert("Please enter a valid month!")
     }
     else if((gender != "Female") && (gender != "Male")){
-        document.getElementById("result").innerHTML="Please select gender!"
+        alert("Please select gender!")
     }
     else if (gender === "Male"){
         document.getElementById("result").innerHTML="You were born on a "+ days[dayOfWeek]+" and "+" Your Akan name is "+maleName[dayOfWeek]
